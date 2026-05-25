@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopNow - Online Shopping Experience</title>
+    <meta name="description" content="ShopNow - Discover amazing deals on electronics, fashion and more.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">
+                    <img class="logo" src="./images/logo.png" alt="ShopNow Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#products">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonials">Reviews</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex ms-3">
+                        <input class="form-control me-2" type="search" placeholder="Search products..."
+                            aria-label="Search">
+                        <button class="btn btn-danger" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ========== BANNER ========== -->
+        <section class="banner d-flex align-items-center">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <div class="innertext">
+                            <h1 class="text-primary fw-bolder">Shop smart. Live better.</h1>
+                            <p class="lead text-dark fw-bold">A simple shopping experience built with Bootstrap 5.0.2.
+                                Browse top picks, enjoy calm styles, and shop with confidence.</p>
+                            <a href="#shop" class="btn btn-primary btn-lg">Shop now</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <figure><img src="./images/banner-img.webp" alt="Shop banner"></figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== PRODUCTS SECTION ========== -->
+        <section class="py-5 bg-warning bg-opacity-10">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold text-dark">Our Popular Products</h2>
+                    <p class="text-muted">Handpicked items just for you</p>
+                </div>
+                <div class="row">
+                    <!-- Card 1 -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card h-100">
+                            <img src="./images/card-img-1.webp" class="card-img-top" alt="Wireless Headphones">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Wireless Headphones</h5>
+                                <p class="card-text text-muted">Premium sound quality with noise cancellation. Perfect
+                                    for </p>
+                                <h6 class="fw-bold text-danger fs-5">&#8377;1,499 <small
+                                        class="text-decoration-line-through text-muted fw-normal">&#8377;1,899</small>
+                                </h6>
+
+
+                                <a href="#" class="btn btn-danger">Buy Now</a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card h-100">
+                            <img src="./images/card-img-2.jpg" class="card-img-top" alt="Smart Watch">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Smart Watch Pro</h5>
+                                <p class="card-text text-muted">Track your fitness, calls, and notifications on the go.
+                                    Water resistant with a long battery life.</p>
+                                <h6 class="fw-bold text-danger fs-5">&#8377;2,999 <small
+                                        class="text-decoration-line-through text-muted fw-normal">&#8377;4,499</small>
+                                </h6>
+                                <a href="#" class="btn btn-danger">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card h-100">
+                            <img src="./images/card-img-3.webp" class="card-img-top" alt="Bluetooth Speaker">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Bluetooth Speaker</h5>
+                                <p class="card-text text-muted">Portable speaker with deep bass and 12-hour battery.
+                                    Great for outdoor trips and parties.</p>
+                                <h6 class="fw-bold text-danger fs-5">&#8377;999 <small
+                                        class="text-decoration-line-through text-muted fw-normal">&#8377;1,299</small>
+                                </h6>
+                                <a href="#" class="btn btn-danger">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card h-100">
+                            <img src="./images/card-img-4.jpg" class="card-img-top" alt="USB-C Charger">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Fast USB-C Charger</h5>
+                                <p class="card-text text-muted">65W fast charging adapter compatible with all devices.
+                                    Compact design for travel and daily use.</p>
+                                <h6 class="fw-bold text-danger fs-5">&#8377;799 <small
+                                        class="text-decoration-line-through text-muted fw-normal">&#8377;1,099</small>
+                                </h6>
+                                <a href="#" class="btn btn-danger">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 5 -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card h-100">
+                            <img src="./images/card-img-5.jpg" class="card-img-top" alt="Laptop Stand">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Laptop Stand</h5>
+                                <p class="card-text text-muted">Adjustable aluminium stand for better posture. Works
+                                    with all laptop sizes up to 17 inches.</p>
+                                <h6 class="fw-bold text-danger fs-5">&#8377;1,199 <small
+                                        class="text-decoration-line-through text-muted fw-normal">&#8377;1,599</small>
+                                </h6>
+                                <a href="#" class="btn btn-danger">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 6 -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card h-100">
+                            <img src="./images/card-img-6.webp" class="card-img-top" alt="Wireless Mouse">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Wireless Mouse</h5>
+                                <p class="card-text text-muted">Ergonomic wireless mouse with silent clicks and long
+                                    battery. Smooth tracking on any surface.</p>
+                                <h6 class="fw-bold text-danger fs-5">&#8377;499 <small
+                                        class="text-decoration-line-through text-muted fw-normal">&#8377;699</small>
+                                </h6>
+                                <a href="#" class="btn btn-danger">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== ABOUT SECTION ========== -->
+        <section class="py-5 bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <figure>
+                            <img class="rounded" src="./images/abt-img.webp" alt="About ShopNow">
+                        </figure>
+                    </div>
+                    <div class="col-lg-6 d-flex align-items-center">
+                        <div>
+                            <h2 class="fw-bold text-dark">Why Choose ShopNow?</h2>
+                            <p class="text-secondary mt-3">We believe shopping should be simple, affordable, and fun.
+                                At ShopNow, we bring you quality products from trusted brands at the best prices.</p>
+                            <ul class="mt-3">
+                                <li class="mb-2 text-dark">&#10003; Free delivery on orders above &#8377;500</li>
+                                <li class="mb-2 text-dark">&#10003; 7-day easy return policy</li>
+                                <li class="mb-2 text-dark">&#10003; 100% genuine products</li>
+                                <li class="mb-2 text-dark">&#10003; 24/7 customer support</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <!-- ========== TESTIMONIALS SECTION ========== -->
+        <section class="py-5">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold text-dark">What Our Customers Say</h2>
+                    <p class="text-muted">Real reviews from real shoppers</p>
+                </div>
+                <div class="row">
+                    <!-- Testimonial 1 -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card text-center p-4 h-100">
+                            <h5 class="fw-bold text-dark">Rahul Sharma</h5>
+                            <div class="star">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </div>
+                            <p class="card-text text-muted">"Amazing quality headphones! Sound is crystal clear and the
+                                delivery was super fast. Highly recommend ShopNow."</p>
+                        </div>
+                    </div>
+                    <!-- Testimonial 2 -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card text-center p-4 h-100">
+                            <h5 class="fw-bold text-dark">Priya Patel</h5>
+                            <div class="star">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-star"></i> </span>
+                            </div>
+                            <p class="card-text text-muted">"Bought the smartwatch for my husband. He absolutely loves
+                                it! Great battery life and fitness tracker."</p>
+                        </div>
+                    </div>
+                    <!-- Testimonial 3 -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="card text-center p-4 h-100">
+                            <h5 class="fw-bold text-dark">Amit Verma</h5>
+                            <div class="star">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </div>
+                            <p class="card-text text-muted">"Best online store I have used so far. Prices are genuine
+                                and the return policy is hassle-free."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer bg-warning py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <figure><img class="logo" src="./images/logo.png" alt=""></figure>
+                    <h5 class="fw-bold">ShopEase</h5>
+                    <p>Your friendly online store for essentials and electronics.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <h5 class="fw-bold">Quick links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#shop">Shop</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                    <h5 class="fw-bold">Contact</h5>
+                    <p>Email: hello@shopease.com</p>
+                    <p>Phone: +91 800 000 0000</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

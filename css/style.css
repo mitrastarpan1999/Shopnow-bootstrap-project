@@ -1,0 +1,71 @@
+/* Universal  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+}
+
+
+section img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* logo */
+
+.logo {
+    width: 60px !important;
+    display: block !important;
+    mix-blend-mode: screen;
+}
+
+/* card image */
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+/* banner */
+
+.banner {
+    min-height: 100vh;
+    background: url(../images/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* list and link reset */
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+span i{
+    color: yellow;
+}
+
+
+
